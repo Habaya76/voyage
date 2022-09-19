@@ -113,6 +113,8 @@ Pour l'application :
 
 [![dictionnaire de données](/BDD/MCD.png)](https://github.com/Habaya76/keke_voyage/blob/main/MCD.png)
 
+----
+
 <h2>MLD</h2>
 
 *Modèle Logique de données textuel*
@@ -137,6 +139,7 @@ Pour l'application :
 
 [![dictionnaire de données](/BDD/MLD.png)](https://github.com/Habaya76/keke_voyage/blob/main/BDD/MLD.png)
 
+----
 
 <h2>MPD</h2>
 

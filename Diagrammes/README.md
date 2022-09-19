@@ -33,7 +33,7 @@ La conception Merise doit respecter au minimum les 3 premières formes normales.
 Correction en groupe et revue des diagrammes sur Github
 
 <h3>Livrables</h3>
-`Dans un dépôt Github : 
+Dans un dépôt Github : 
 Pour la base de données :
 
 * Un MCD

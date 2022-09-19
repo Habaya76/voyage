@@ -5,17 +5,17 @@ Votre client, une agence de voyages, souhaite proposer la possibilité de réser
 Votre mission est de concevoir à l'aide du standard UML la modélisation de la plateforme.
 La plateforme devra permettre que :
 
-    * Un vol est ouvert à la réservation et refermé sur ordre de la compagnie.
-    * Un vol peut être annulé par la compagnie
-    * Un client peut réserver un ou plusieurs vols, pour des passagers différents.
-    * Une réservation concerne un seul vol et un seul passager.
-    * Une réservation peut être annulée ou confirmée.
-    * Un vol a un aéroport de départ et un aéroport d’arrivée.
-    * Un vol a un jour et une heure de départ, et un jour et une heure d’arrivée.
-    * Un vol peut comporter des escales dans des aéroports.
-    * Une escale a une heure d’arrivée et une heure de départ.
-    * Chaque aéroport dessert une ou plusieurs villes.
-    * Des compagnies aériennes proposent différents vols.
+* Un vol est ouvert à la réservation et refermé sur ordre de la compagnie.
+* Un vol peut être annulé par la compagnie
+* Un client peut réserver un ou plusieurs vols, pour des passagers différents.
+* Une réservation concerne un seul vol et un seul passager.
+* Une réservation peut être annulée ou confirmée.
+* Un vol a un aéroport de départ et un aéroport d’arrivée.
+* Un vol a un jour et une heure de départ, et un jour et une heure d’arrivée.
+* Un vol peut comporter des escales dans des aéroports.
+* Une escale a une heure d’arrivée et une heure de départ.
+* Chaque aéroport dessert une ou plusieurs villes.
+* Des compagnies aériennes proposent différents vols.
 
 <h3>Modalités pédagogiques</h3>
 
@@ -46,3 +46,51 @@ Pour l'application :
 * Un diagramme de cas d'utilisation
 * Un diagramme de classe
 * Un diagramme de Séquence
+
+<h1>Merise</h1>
+
+<h2>Régle de gestion</h2>
+
+<h3>RESERVATION </h3>
+
+* un n° de passport
+* une date de reservation
+* un nom
+* prenom
+* un email de contact
+* un numero de telephone
+* peut être annuler par le client 
+* peut être modifier par le client
+* peut être afficher par le client
+* une reservation peu appartenir a plusieur personne  et plusieur vol
+
+<h3>VOL </h3>
+
+* un numero de vol  
+* un aeroport de depart avec une date de depart et une heure depart 
+* un aeroport d'arrive avec une date d'arrivvee et une heure d'arrivee  
+* vol avec un ou plusieur passager  
+* un vol ne peux pas être reservable ou non  
+* un vol peut faire des escale dans un AEROPORT  
+* le vol est un trajet d'un aeroport à un autre  
+
+<h3>AEROPORT</h3>
+
+* un aeroport se trouve dans une ville  
+* un aeroport a un nom
+
+<h3>VILLE</h3>
+
+* un nom
+
+<h3>COMPAGNIE</h3>
+
+* A un nom
+* peut avoir un ou plusieur vol
+
+<h3>ESCALE</h3>
+* une date et une heure d'arrivée
+* une date et une heure de depart
+* un aeroport de depart
+* un aeroport d'arrivee
+

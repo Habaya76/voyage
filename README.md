@@ -101,13 +101,13 @@ Pour l'application :
 <h2>Dictionnaire de données</h2>
 
 
-[![dictionnaire de données](../BDD/Dictionnaire_donn%C3%A9es.png)](https://github.com/Habaya76/keke_voyage/blob/main/MCD.png)
+[![dictionnaire de données](/BDD/Dictionnaire_donn%C3%A9es.png)](https://github.com/Habaya76/keke_voyage/blob/main/MCD.png)
 
 <h2>MCD</h2>
 
 *Modèle Conceptuel de données*
 
-[![dictionnaire de données](../BDD/MCD.png)](https://github.com/Habaya76/keke_voyage/blob/main/MCD.png)
+[![dictionnaire de données](/BDD/MCD.png)](https://github.com/Habaya76/keke_voyage/blob/main/MCD.png)
 
 <h2>MLD</h2>
 
@@ -124,13 +124,13 @@ Escale = (#id_Vol, #id_Aeroport, jour_depart DATE, heure_Depart TIME, jour_Arriv
 
 
 
-[![dictionnaire de données](../BDD/MLD.png)](https://github.com/Habaya76/keke_voyage/blob/main/BDD/MLD.png)
+[![dictionnaire de données](/BDD/MLD.png)](https://github.com/Habaya76/keke_voyage/blob/main/BDD/MLD.png)
 
 <h2>MPD</h2>
 
 *Modèle Physique de données*
 
-[![dictionnaire de données](../BDD/MPD.png)](https://github.com/Habaya76/keke_voyage/blob/main/BDD/MPD.png)
+[![dictionnaire de données](/BDD/MPD.png)](https://github.com/Habaya76/keke_voyage/blob/main/BDD/MPD.png)
 
 <h3>Script SQL</h3>
 
@@ -220,4 +220,4 @@ CREATE TABLE Escale(
 <h2>Diagramme de classe</h2>
 
 
-[![dictionnaire de données](../UML/Diagramme_classe.png)](https://github.com/Habaya76/keke_voyage/blob/main/UML/Diagramme_classe.png)
+[![dictionnaire de données](/UML/Diagramme_classe.png)](https://github.com/Habaya76/keke_voyage/blob/main/UML/Diagramme_classe.png)

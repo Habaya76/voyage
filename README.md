@@ -101,4 +101,3 @@ Pour l'application :
 <h2>Dictionnaire de données</h2>
 
 
-[![Légende](../Diagrammes/Dictionnaire_donn%C3%A9es.png)](https://github.com/Habaya76/keke_voyage/blob/main/Diagrammes/MCD.png)]

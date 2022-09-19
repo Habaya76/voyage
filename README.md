@@ -101,25 +101,36 @@ Pour l'application :
 <h2>Dictionnaire de données</h2>
 
 
-[![dictionnaire de données](Dictionnaire_donn%C3%A9es.png)](https://github.com/Habaya76/keke_voyage/blob/main/MCD.png)]
+[![dictionnaire de données](../BDD/Dictionnaire_donn%C3%A9es.png)](https://github.com/Habaya76/keke_voyage/blob/main/MCD.png)
 
 <h2>MCD</h2>
 
 *Modèle Conceptuel de données*
 
-[![dictionnaire de données](MCD.png)](https://github.com/Habaya76/keke_voyage/blob/main/MCD.png)]
+[![dictionnaire de données](../BDD/MCD.png)](https://github.com/Habaya76/keke_voyage/blob/main/MCD.png)
 
 <h2>MLD</h2>
 
-*Modèle Logique de données*
+*Modèle Logique de données textuel*
 
-[![dictionnaire de données](MLD.png)](https://github.com/Habaya76/keke_voyage/blob/main/MLD.png)]
+*Compagnie = (id_compagnie INT, nom_compagnie VARCHAR(255));
+Client = (id_client INT, nom VARCHAR(255), prenom VARCHAR(255), date_naissance DATE, email VARCHAR(255));
+Ville = (id_Ville INT, nom_ville VARCHAR(50));
+Reservation = (id_Reservation INT, date_reservation DATETIME, num_passport VARCHAR(255), email VARCHAR(255), nom VARCHAR(255), prenom VARCHAR(255), tel VARCHAR(255), #id_client);
+Aeroport = (id_Aeroport INT, nom_aeroport VARCHAR(255), #id_Ville);
+Passager = (id_passager INT, nom VARCHAR(255), email VARCHAR(255), prenom VARCHAR(255), date_naissance VARCHAR(255), #id_Reservation);
+Vol = (id_Vol INT, num_vol VARCHAR(255), jour_Depart DATETIME, jour_Arrivee DATETIME, #id_Reservation, #id_Aeroport, #id_Aeroport_1, #id_compagnie*);
+Escale = (#id_Vol, #id_Aeroport, jour_depart DATE, heure_Depart TIME, jour_Arrivee DATE, heure_Arrivee TIME);*
+
+
+
+[![dictionnaire de données](../BDD/MLD.png)](https://github.com/Habaya76/keke_voyage/blob/main/BDD/MLD.png)
 
 <h2>MPD</h2>
 
 *Modèle Physique de données*
 
-[![dictionnaire de données](MPD.png)](https://github.com/Habaya76/keke_voyage/blob/main/MPD.png)]
+[![dictionnaire de données](../BDD/MPD.png)](https://github.com/Habaya76/keke_voyage/blob/main/BDD/MPD.png)
 
 <h3>Script SQL</h3>
 
@@ -209,4 +220,4 @@ CREATE TABLE Escale(
 <h2>Diagramme de classe</h2>
 
 
-[![dictionnaire de données](Diagramme_classe.png)](https://github.com/Habaya76/keke_voyage/blob/main/Diagramme_classe.png)]
+[![dictionnaire de données](../UML/Diagramme_classe.png)](https://github.com/Habaya76/keke_voyage/blob/main/UML/Diagramme_classe.png)

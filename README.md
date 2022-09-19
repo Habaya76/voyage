@@ -100,4 +100,4 @@ Pour l'application :
 
 <h2>Dictionnaire de données</h2>
 
-[![dictionnaire de données](../Dictionnaire_donn%C3%A9es.png)](https://github.com/Habaya76/keke_voyage/blob/main/Diagrammes/MCD.png)]
+[![dictionnaire de données](Dictionnaire_donn%C3%A9es.png)](https://github.com/Habaya76/keke_voyage/blob/main/Diagrammes/MCD.png)]

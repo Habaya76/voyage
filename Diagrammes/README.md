@@ -1,4 +1,7 @@
 <h1>Merise-MCD-MLD-MPD</h1>
+
+----
+
 <h3>Contexte du projet</h3>
 
 Votre client, une agence de voyages, souhaite proposer la possibilité de réserver en ligne des billets d'avion à leurs clients.
@@ -89,8 +92,12 @@ Pour l'application :
 * peut avoir un ou plusieur vol
 
 <h3>ESCALE</h3>
+
 * une date et une heure d'arrivée
 * une date et une heure de depart
 * un aeroport de depart
 * un aeroport d'arrivee
 
+<h2>Dictionnaire de données</h2>
+
+[![Légende](Diagrammes/MCD.png)](https://github.com/Habaya76/keke_voyage/blob/main/Diagrammes/MCD.png)]

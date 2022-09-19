@@ -113,14 +113,14 @@ Pour l'application :
 
 *Modèle Logique de données textuel*
 
-*Compagnie = (id_compagnie INT, nom_compagnie VARCHAR(255));
-Client = (id_client INT, nom VARCHAR(255), prenom VARCHAR(255), date_naissance DATE, email VARCHAR(255));
-Ville = (id_Ville INT, nom_ville VARCHAR(50));
-Reservation = (id_Reservation INT, date_reservation DATETIME, num_passport VARCHAR(255), email VARCHAR(255), nom VARCHAR(255), prenom VARCHAR(255), tel VARCHAR(255), #id_client);
-Aeroport = (id_Aeroport INT, nom_aeroport VARCHAR(255), #id_Ville);
-Passager = (id_passager INT, nom VARCHAR(255), email VARCHAR(255), prenom VARCHAR(255), date_naissance VARCHAR(255), #id_Reservation);
-Vol = (id_Vol INT, num_vol VARCHAR(255), jour_Depart DATETIME, jour_Arrivee DATETIME, #id_Reservation, #id_Aeroport, #id_Aeroport_1, #id_compagnie*);
-Escale = (#id_Vol, #id_Aeroport, jour_depart DATE, heure_Depart TIME, jour_Arrivee DATE, heure_Arrivee TIME);*
+*Compagnie = (id_compagnie INT, nom_compagnie VARCHAR(255));*
+*Client = (id_client INT, nom VARCHAR(255), prenom VARCHAR(255), date_naissance DATE, email VARCHAR(255));*
+*Ville = (id_Ville INT, nom_ville VARCHAR(50));*
+*Reservation = (id_Reservation INT, date_reservation DATETIME, num_passport VARCHAR(255), email VARCHAR(255), nom VARCHAR(255), prenom VARCHAR(255), tel VARCHAR(255), #id_client);*
+*Aeroport = (id_Aeroport INT, nom_aeroport VARCHAR(255), #id_Ville);*
+*Passager = (id_passager INT, nom VARCHAR(255), email VARCHAR(255), prenom VARCHAR(255), date_naissance VARCHAR(255), #id_Reservation);*
+*Vol = (id_Vol INT, num_vol VARCHAR(255), jour_Depart DATETIME, jour_Arrivee DATETIME, #id_Reservation, #id_Aeroport, #id_Aeroport_1, #id_compagnie*);*
+*Escale = (#id_Vol, #id_Aeroport, jour_depart DATE, heure_Depart TIME, jour_Arrivee DATE, heure_Arrivee TIME);*
 
 
 

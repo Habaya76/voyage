@@ -203,5 +203,8 @@ CREATE TABLE Escale(
    FOREIGN KEY(id_Aeroport) REFERENCES Aeroport(id_Aeroport)
 );
 
-
  ```
+<h2>Diagramme de classe</h2>
+
+
+[![dictionnaire de données](Diagramme_classe.png)](https://github.com/Habaya76/keke_voyage/blob/main/Diagramme_classe.png)]
